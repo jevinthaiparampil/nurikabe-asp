@@ -1,6 +1,6 @@
 # Nurikabe ASP Demo
 
-Comparing ASP encodings of Nurikabe puzzles using clingo. The goal is to show how encoding choices affect grounding and solving time across instances of different sizes.
+Comparing two ASP encodings of Nurikabe puzzles using clingo. The goal is to show how encoding choices affect grounding and solving time across instances of different sizes.
 
 ## Steps to run
 
