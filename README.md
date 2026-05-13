@@ -9,7 +9,7 @@ Comparing two ASP encodings of Nurikabe puzzles using clingo. The goal is to sho
 2. ```bash
    pip install -r requirements.txt
    ```
-Then run the following for single instance, or use the command for all instances as given below.
+3. Open the repo and then run the following for single instance or for all instances as given below.
 
 ## Run a single instance
 
@@ -36,7 +36,7 @@ In `encoding/`:
 - `nurikabe_01.lp` — derived from [Honu08/Nurikabe](https://github.com/Honu08/Nurikabe) (Texas Tech, Omar Rodriguez Santiago / Dr. Richard Watson).
 - `nurikabe_02.lp` — same logic as `nurikabe_01.lp` but fake inefficiencies introduced. For example:
   - adds a redundant `pair/4` predicate which enumerates more combinations
-  - remoeved explicit check done for overlapping clue cells in same region. This is then passively caught when
+  - removed explicit check done for overlapping clue cells in same region. This is then passively caught when
     checking that clue number matches the island size.
 
 ## Instances
