@@ -55,8 +55,6 @@ Issue: Matplotlib bar graphs were scaled down and some parts were not visible.
 Prompt used: """Modify and format the bar graph created by matplotlib. It is created based on average runtimes for all instances over multiple encodings and it varies vastly. Ensure that it scales well and all parts of the graph is visible."""
 Output: Introduced log scaling so that all parts remained visible.
 
-AI assisstance was used in helping to derive and adapt the ASP encoding from the Honu08 repository and adjusting matplotlib renderings.
-
 ## References
 
 - Honu08/Nurikabe: https://github.com/Honu08/Nurikabe
